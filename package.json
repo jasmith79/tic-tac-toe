@@ -1,0 +1,19 @@
+{
+  "name": "@jasmith79/tic-tac-toe",
+  "version": "0.0.1",
+  "description": "Teaching my daughter to code",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasmith79/tic-tac-toe.git"
+  },
+  "author": "Lorelei Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasmith79/tic-tac-toe/issues"
+  },
+  "homepage": "https://github.com/jasmith79/tic-tac-toe#readme"
+}
