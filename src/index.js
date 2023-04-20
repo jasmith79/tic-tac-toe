@@ -43,3 +43,16 @@ for (let item of ['a', 'b', 'c']) {
     console.log(item); // logs all items in the array
 }
 
+// Comparison
+let bar = 3; // single = is *assignment*, triple === is comparison
+console.log(bar === 3); // prints true
+console.log(bar === 'hello'); // prints false
+console.log(bar > 1); // prints true
+console.log(bar < 1); // prints false
+
+// Objects and arrays compare on *reference* not *value*:
+let baz = {};
+console.log(baz === {}); // prints *false*, they aren't the exact same object reference.
+baz.a = 'hi';
+console.log(baz === baz); // prints true, baz is still baz even though we changed it.
+console.log([1, 2] === [1, 2]); // prints *false*, those are two different arrays with the same stuff in them.
